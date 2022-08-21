@@ -228,3 +228,16 @@
 // console.log(test_prime(37));
 
 // 10. Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively.
+// Question: 10 Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively.
+// code:
+// function second(){
+//     var num = [9, 8, 2, 3, 4, 5];
+//     num = num.sort();
+//     var secondLowest = num[1];
+//     var secondGreatest = num[num.length - 2];
+//     var list = [];
+//     list.push(secondLowest)
+//     list.push(secondGreatest);
+//     document.write(list);
+//     }
+//     second();
